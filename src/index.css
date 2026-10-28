@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Aligarh Arabic FREE PERSONAL USE Bd';
+  src: url('/fonts/AligarhArabicFREEPERSONALUSE-Bold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-parchment: #F5F2EC;
+  --color-deep-blue: #2C3E50;
+  --color-muted-blue: #5D6D7E;
+  --color-terracotta: #5A3322;
+  --color-background: #F5F2EC;
+  --color-foreground: #2C3E50;
+  
+  --font-display: 'Great Vibes', cursive;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Playfair Display', serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .text-deep-blue { color: #2C3E50; }
+  .text-muted-blue { color: #5D6D7E; }
+  .text-terracotta { color: #5A3322; }
+}

@@ -1,0 +1,6 @@
+{
+  "summary":  "Revised implementation plan for a self-contained, client-ready RSVP system. RSVPs submit directly to Firebase Firestore, and the customer (wedding host) accesses a passcode-protected Host Admin Dashboard on the website to view live guest counts, notes, and export to Excel/CSV without any emails or external apps.",
+  "updatedAt":  "2026-10-27T16:35:43.874784960Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
