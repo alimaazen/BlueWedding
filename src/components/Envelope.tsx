@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import blueSealVideo from "@/assets/Blue_Seal_Envelope_White.mp4";
+import blueSealVideo from "@/assets/newBlueEnvelope.mp4";
 import envelopePoster from "@/assets/envelope_poster.jpg";
 
 interface EnvelopeProps {
